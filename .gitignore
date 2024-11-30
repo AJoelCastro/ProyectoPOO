@@ -1,0 +1,11 @@
+# Archivos generados por Java
+*.class
+*.jar
+
+# Configuración de IDE
+.idea/
+*.iml
+
+# Logs y configuraciones locales
+logs/
+*.log
