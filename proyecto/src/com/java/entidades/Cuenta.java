@@ -3,7 +3,7 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 public abstract class Cuenta {
-private String numeroCuenta;
+    private String numeroCuenta;
     private float saldoCuenta;
     private String clave;
     private GregorianCalendar fechaCreacion;
@@ -60,11 +60,11 @@ private String numeroCuenta;
         numCuenta += dato;        
         return numCuenta;
     }   
-  
+    
     public String getNumeroCuenta() {
         return numeroCuenta;
     }
-       
+    
     public void setSaldoCuenta(float saldoCuenta) {
         this.saldoCuenta = saldoCuenta;
     }
